@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.item {
+  width: calc(100% / 3);
+  list-style: none;
+  font-weight: bold;
+}

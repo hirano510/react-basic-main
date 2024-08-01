@@ -1,0 +1,11 @@
+.button {
+  background-color: #3bcef7;
+}
+
+.button:hover {
+  background-color: #61dafb;
+}
+
+.button:focus {
+  outline: none;
+}
