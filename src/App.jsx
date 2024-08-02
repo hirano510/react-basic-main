@@ -1,6 +1,6 @@
 import reactLogo from './assets/react.svg'
 import styles from './App.module.css'
-import Button from './components/Button'
+import { Button } from './components/Button'
 import { Profile } from './components/Profile'
 import { Country } from './components/Country'
 import { Card } from './components/Card'
@@ -22,7 +22,7 @@ export const App = () => {
 
       <Button />
       <Button />
-      <Button />
+      <Button isActive={true} />
 
       <hr />
 
@@ -57,6 +57,10 @@ export const App = () => {
       <hr />
 
       <CharacterImage />
+
+      <hr />
+
+
     </div>
   )
 }
